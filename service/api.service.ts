@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
-  private readonly ROOT_URL = 'http://localhost:3000';
+  private readonly ROOT_URL = 'https://etiqa-test.herokuapp.com';
 
   constructor(private http: HttpClient) {}
 
